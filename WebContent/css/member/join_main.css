@@ -1,0 +1,72 @@
+@CHARSET "UTF-8";
+
+.temsBox {
+	width: 100%;
+	height: 150px;
+	overflow-y: scroll;
+	box-sizing: border-box;
+	border: 1px solid #e0e0e0;
+	margin-top: 43px;
+	padding: 20px;
+	font-family: 'Nanum Barun Gothic', sans-serif;
+	color: #656565;
+	line-height: 24px;
+}
+
+.temsBox.type2 {
+	overflow: visible;
+	height: 98px;
+}
+
+.temsBox * {
+	font-family: 'Nanum Barun Gothic', sans-serif;
+}
+
+.temsBox .tit {
+	font-size: 16px;
+	color: #e74048;
+	margin-bottom: 20px;
+}
+
+.temsBox strong {
+	color: #333;
+	font-weight: normal
+}
+
+/* 체크박스 동의 부분 */
+#joinAgreeAll {
+	color: red;
+}
+
+.btnBoxR {
+	text-align: right;
+	margin-top: 8px;
+}
+
+.btnBoxR label {
+	font-family: 'Nanum Barun Gothic', sans-serif;
+	color: #656565;
+}
+
+.temsOk {
+	padding-top: 20px;
+	margin-top: 28px;
+	border-top: 2px solid #111;
+	text-align: center;
+}
+
+.temsOk a {
+    display: inline-block;
+    width: 107px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #fff;
+    background-image: url("../../images/join/btn_Link.png");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0 auto;
+    font-family: 'Nanum Barun Gothic', sans-serif;
+}

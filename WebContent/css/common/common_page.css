@@ -1,0 +1,42 @@
+@CHARSET "UTF-8";
+
+.page {
+	text-align: center;
+	margin-top: 30px;
+}
+
+.page * {
+	vertical-align: top;
+	display: inline-block;
+	box-sizing: border-box;
+}
+
+.page ul {
+	margin: 0 11px;
+}
+
+.page li a {
+    padding: 0 3px;
+    margin: 0 2px;
+    width: 34px;
+    height: 34px;
+    line-height: 33px;
+    text-align: center;
+    color: #666;
+    font-size: 12px;
+    background-image: url("../../images/common/page/bg_page.png");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    box-sizing: border-box;
+}
+
+.page li a:hover, .page li.on a {
+    color: #fff;
+    background-image: url("../../images/common/page/bg_page_on.png");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+
+.page > a {
+    margin: 0 1px;
+}

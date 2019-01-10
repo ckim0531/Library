@@ -1,0 +1,21 @@
+@CHARSET "UTF-8";
+
+.btn03 {
+	display: inline-block;
+	text-align: center;
+	padding: 0 13px;
+	height: 25px;
+	line-height: 25px;
+	color: #fff;
+	background: #e74048;
+	box-sizing: border-box;
+}
+
+.btn03.type2 {
+	height: 38px;
+	line-height: 38px;
+}
+
+.btn03.type3 {
+	padding: 0 18px;
+}

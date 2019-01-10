@@ -1,0 +1,15 @@
+@CHARSET "UTF-8";
+
+#footer * {
+	color: #fff;
+	font-size: 13px;
+	line-height: 20px;
+}
+
+#footer {
+	background: #3f3f3f;
+	text-align: center;
+	padding: 28px 0;
+	width: 100%;
+	margin: 0
+}

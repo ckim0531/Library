@@ -1,0 +1,56 @@
+@CHARSET "EUC-KR";
+
+.btn001 {
+	background-image:url("../../images/join/btn_Check.png");
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	display:inline-block;
+	width:80px;
+	height:24px;
+	line-height:24px;
+	text-align:center;
+	color:#fff;
+	font-size:11px;
+}
+
+.btnLoginGo {
+    display: block;
+    width: 107px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #fff;
+    background-image: url(../../images/member/btn_Link.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0 auto;
+    font-family: 'Nanum Barun Gothic', sans-serif;
+}
+
+#joinCheckIdText { 
+	color: red;
+}
+
+#joinCheckPassText {
+	color: red;
+}
+
+#joinCheckPassSameText {
+	color: red;
+}
+
+/* 우편번호 */
+#joinZipcode {
+	width: 70px;
+	
+}
+
+#joinAddr {
+	width: 250px;
+}
+
+#joinAddr2 {
+	width: 200px;
+}

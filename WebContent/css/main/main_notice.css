@@ -1,0 +1,78 @@
+@CHARSET "EUC-KR";
+
+.cont2>* {
+	height: 220px;
+}
+
+.cont2:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.noticeBox {
+	float: left;
+	position: relative;
+	width: 394px;
+	margin-left: 15px;
+}
+
+.noticeBox .more {
+	position: absolute;
+	top: 0;
+	right: 0
+}
+
+.tab_menu li {
+	float: left;
+	height: 61px;
+	overflow: hidden;
+}
+
+.tab_menu li a {
+	display: block;
+	height: 100%
+}
+
+.tab_menu li.active a img {
+	margin-top: -62px;
+}
+
+.tabCont>div {
+	margin-top: -6px;
+	background-image: url("../../images/main/notice/bg_notice.png");
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	height: 165px;
+	box-sizing: border-box;
+	padding: 28px 11px 28px 31px;
+}
+
+.conbox li:first-child {
+	margin: 0
+}
+
+.conbox li {
+	background-image: url("../../images/main/notice/blt01.png");
+	background-repeat: no-repeat;
+	background-position: 0 center;
+	margin-top: 8px;
+	padding-left: 10px;
+}
+
+.conbox li a {
+	padding-right: 20px;
+	font-size: 13px;
+	color: #666;
+}
+
+.conbox li a:hover {
+	color: #e74048;
+}
+
+.conbox li.new a {
+	background-image: url("../../images/main/notice/icon_new.png");
+	background-repeat: no-repeat;
+	background-position: right center;
+	background-size: 13px auto;
+}

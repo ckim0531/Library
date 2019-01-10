@@ -1,0 +1,102 @@
+@CHARSET "EUC-KR";
+
+.hidden {
+	display: none;
+}
+
+.loginBox {
+	margin: 30px 0 20px;
+	border-top: 3px solid #e6464e;
+	border-left: 1px solid #dadada;
+	border-right: 1px solid #dadada;
+	border-bottom: 1px solid #dadada;
+	background: #f8f8f8;
+	padding: 60px 165px 50px;
+}
+
+.loginBox * {
+	font-family: 'Nanum Barun Gothic', sans-serif;
+}
+
+.loginBox .tit {
+	font-size: 44px;
+	font-weight: bold;
+}
+
+.loginBox>div {
+	margin-top: 25px;
+}
+
+.loginBox>div:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.loginBox>div>* {
+	float: left
+}
+
+.loginBox>div>div {
+	width: 315px;
+}
+
+.loginBox>div>div span {
+	display: inline-block;
+	width: 65px;
+	line-height: 35px;
+}
+
+.loginBox>div>div input {
+	width: 248px;
+}
+
+.loginBox > div:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.loginBox>div>a.btnLogin {
+	display: block;
+	background-image: url('../../images/login/bg_login.png');
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	width: 107px;
+	height: 80px;
+	line-height: 80px;
+	color: #fff;
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+	margin-left: 10px;
+}
+
+.infoTxt {
+	background-image: url('../../images/login/icon_info.png');
+	background-repeat: no-repeat;
+	background-position: 0 7px;
+	padding-left: 20px;
+	line-height: 24px;
+	margin-bottom: 18px;
+}
+
+.notTxt {
+	clear: both;
+	border-top: 1px solid #dadada;
+	padding-top: 18px;
+	line-height: 24px;
+}
+
+.btn01 {
+	border: 1px solid #b4b4b4;
+}
+
+.btn {
+	display: inline-block;
+	text-align: center;
+	padding: 0 15px;
+	height: 28px;
+	line-height: 28px;
+	box-sizing: border-box;
+}

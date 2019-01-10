@@ -1,0 +1,120 @@
+@CHARSET "EUC-KR";
+
+.tabList03 {
+	margin: 30px 0 25px;
+}
+
+.tabList03 li.on a {
+	height: 58px;
+	background-image: url("../../images/member/find/bg_tab03_on.png");
+	background-repeat: no-repeat;
+	background-position: 0 0;
+}
+
+.tabList03 li a {
+	display: inline-block;
+	width: 374px;
+	height: 50px;
+	line-height: 50px;
+	font-weight: bold;
+	font-size: 18px;
+	color: #fff;
+	text-align: center;
+	background: #878787;
+}
+
+.tabList03 li:first-child {
+	margin-right: 15px;
+}
+
+.tabList03 li {
+	float: left;
+}
+
+.txt {
+	line-height: 24px;
+}
+
+.txtBox {
+	float: left;
+	position: relative;
+	width: 374px;
+	height: 285px;
+	border: 1px solid #dcdcdc;
+	background: #f8f8f8;
+	box-sizing: border-box;
+	padding: 22px 25px;
+}
+
+.txtBox * {
+	font-family: 'Nanum Barun Gothic', sans-serif;
+}
+
+.txtBox+.txtBox {
+	margin-left: 15px;
+}
+
+.txtBox .tit {
+	background-image: url('../../images/member/find/icon_info.png');
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	padding-left: 30px;
+	font-weight: bold;
+	font-size: 24px;
+}
+
+.txtBox .txt {
+	margin-top: 15px;
+}
+
+.txtBox label {
+	margin: 13px 0 0 18px;
+	display: block;
+	background-image: url('../../images/member/find/icon_label.png');
+	background-repeat: no-repeat;
+	background-position: 0 center;
+}
+
+.txtBox label+label {
+	margin-top: 5px;
+}
+
+.txtBox label span {
+	display: inline-block;
+	font-family: 'Nanum Barun Gothic', sans-serif;
+	width: 60px;
+	padding-left: 10px;
+}
+
+.txtBox label input {
+	border: 1px solid #dedede;
+	width: 230px;
+	height: 30px;
+	line-height: 30px;
+}
+
+.txtBox .link, .txtBox .btnClick {
+	position: absolute;
+}
+
+.txtBox .link {
+	left: 29px;
+	bottom: 65px;
+}
+
+.txtBox .btnClick {
+	left: 50%;
+	margin-left: -15%;
+	bottom: 20px;
+	display: inline-block;
+	width: 107px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	color: #fff;
+	background-image: url('../../images/member/find/btn_Link.png');
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	font-size: 16px;
+	font-weight: bold;
+}

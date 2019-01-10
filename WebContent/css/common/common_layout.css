@@ -1,0 +1,88 @@
+@CHARSET "UTF-8";
+
+/* -------------------------------------------*/
+/*                      중복                                      */
+/* -------------------------------------------*/
+body>*>* {
+	width: 1024px;
+	margin: 0 auto !important;
+}
+
+h1 {
+	float: left;
+}
+
+/* -------------------------------------------*/
+/*                    내용 제목                                   */
+/* -------------------------------------------*/
+h3 {
+	display: inline-block;
+	font-weight: bold !important;
+	font-size: 32px;
+	margin-bottom: 30px !important;
+	color: #222;
+	padding-bottom: 11px !important;
+	background-image: url("../../images/common/bg_h3.png");
+	background-repeat: repeat-x;
+	background-position: 0 bottom;
+}
+
+#container .conts {
+	width: 765px;
+	float: right;
+	padding: 40px 0 185px;
+	background-image: url("../../images/common/bg_h3_2.png");
+	background-repeat: repeat-x;
+	background-position: 0 98px;
+}
+
+#nav {
+	float: right;
+	margin-top: 30px;
+	font-size: 12px;
+	color: #666;
+}
+
+#nav * {
+	line-height: 18px;
+}
+
+#nav a {
+	font-size: 12px;
+	color: #666;
+	vertical-align: top;
+}
+
+/* -------------------------------------------*/
+/*                      내용                                      */
+/* -------------------------------------------*/
+#container {
+	background-image: url("../../images/common/bg_conts.png");
+	background-repeat: repeat-y;
+	background-position: center 0;
+	background-color: #fff;
+	background-size: 1024px auto;
+}
+
+#container:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.conts > .summary {
+    border: 1px solid #e3e3e3;
+    background: #f9f9f9;
+    padding: 18px 15px;
+    line-height: 28px;
+}
+
+/* 배경 */
+#container.mainContent {
+	background: #fbf8f1;
+	padding-top: 40px;
+}
+
+#container.mainContent * {
+	font-family: 'Nanum Barun Gothic', sans-serif;
+}

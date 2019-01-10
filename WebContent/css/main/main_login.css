@@ -1,0 +1,48 @@
+@CHARSET "UTF-8";
+
+.cont1 {
+	float: left;
+	width: 271px
+}
+
+.cont1 .loginBox {
+	background-image: url('../../images/main/login/bg_login.png');
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	padding: 11px 11px;
+	margin-bottom: 10px;
+}
+
+.cont1 .loginBox input {
+	background: #fafafa;
+	border: 1px solid #dddddd;
+	width: 180px;
+	height: 30px;
+	box-sizing: border-box;
+}
+
+.cont1 .loginBox>div>a {
+	float: right;
+}
+
+.cont1 .loginBox>ul li {
+    margin: 10px 0 0 4px;
+    float: left;
+    background-image: url('../../images/main/login/btn_login2.png');
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+
+.cont1 .loginBox>ul>li:first-child {
+    margin-left: 0;
+}
+
+.cont1 .loginBox>ul>li a {
+	font-size: 12px;
+	text-align: center;
+	display: block;
+	width: 80px;
+	height: 33px;
+	line-height: 33px;
+	box-sizing: border-box
+}

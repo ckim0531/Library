@@ -1,0 +1,65 @@
+@CHARSET "EUC-KR";
+
+/* -------------------------------------------*/
+/*                메뉴 전체 배경                                    */
+/* -------------------------------------------*/
+#header {
+	background-image: url("../../images/menu/top/bg_header.png");
+	background-repeat: repeat-x;
+	background-position: 0 0;
+}
+
+#header div.top:after, .topMenu:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+/* -------------------------------------------*/
+/*                메뉴 TOP 부분                                   */
+/* -------------------------------------------*/
+#header div.top ul li {
+	float: left;
+	width: 90px;
+	height: 44px;
+	line-height: 44px;
+	box-sizing: border-box;
+	text-align: center;
+	border-right: 1px solid #eb5c63;
+}
+
+#header div.top ul li a {
+	color: #fff;
+}
+
+#header div.top ul.topLink {
+	float: left;
+}
+
+#header div.top ul.topLink li:first-child {
+	width: auto;
+	border-right: none;
+	vertical-align: top;
+}
+
+#header div.top ul.topLink a {
+	font-size: 13px;
+	font-weight: bold;
+}
+
+#header div.top ul.topMy {
+	float: right;
+	border-left: 1px solid #eb5c63;
+}
+
+#header div.top ul.topMy li:hover {
+	background-color: #c62d34
+}
+
+#header div.top ul.topMy li a {
+	display: block;
+	height: 44px;
+	line-height: 44px;
+	font-family: 'Malgun Gothic', '맑은 고딕';
+	font-size: 11px;
+}

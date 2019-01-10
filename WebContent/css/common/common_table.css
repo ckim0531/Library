@@ -1,0 +1,46 @@
+@CHARSET "EUC-KR";
+
+.tblType01 {
+    border-top: 2px solid #e74048;
+}
+
+.tblType01 th {
+	background: #f9f9f9;
+	text-align: center;
+}
+
+.tblType01 th:first-child {
+	border-left: none;
+}
+
+.tblType01 th, .tblType01 td {
+	border-left: 1px solid #e3e3e3;
+	border-bottom: 1px solid #e3e3e3;
+	padding: 8px 10px;
+}
+
+.tblType01.type2 th {
+	font-weight: bold;
+}
+
+.tblType01.type2 td {
+	text-align: center;
+}
+.tblType01.type2 td:first-child {
+	border-left: none;
+}
+
+.tblType01.type7 th, .tblType01.type7 td {
+    padding: 13px 30px;
+    text-align: left;
+}
+
+.tblType01.type9 th {
+    font-weight: bold;
+}
+
+.tblType01.type9 th, .tblType01.type9 td {
+    padding: 13px 2px;
+    border-left: none !important;
+    text-align: center;
+}

@@ -1,0 +1,47 @@
+@CHARSET "UTF-8";
+
+.cont1 {
+	float: left;
+	width: 271px
+}
+
+.cont1 .searchBox {
+	background-image: url('../../images/main/search/bg_search.png');
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	padding: 11px 11px;
+}
+
+.cont1 .searchBox input {
+	background: #fafafa;
+	border: 1px solid #dddddd;
+	width: 180px;
+	height: 30px;
+	box-sizing: border-box;
+}
+
+.cont1 .searchBox>div>a {
+	float: right;
+}
+
+.cont1 .searchBox>ul li:first-child {
+	margin-left: 0
+}
+
+.cont1 .searchBox>ul li {
+	margin: 10px 0 0 4px;
+	float: left;
+	background-image: url('../../images/main/search/btn_search2.png');
+	background-repeat: no-repeat;
+	background-position: 0 0;
+}
+
+.cont1 .searchBox>ul li a {
+	font-size: 12px;
+	text-align: center;
+	display: block;
+	width: 80px;
+	height: 33px;
+	line-height: 33px;
+	box-sizing: border-box
+}

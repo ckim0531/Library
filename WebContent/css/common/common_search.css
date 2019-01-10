@@ -1,0 +1,52 @@
+@CHARSET "EUC-KR";
+
+.searchBox {
+	height: 90px;
+	line-height: 90px;
+	text-align: center;
+	box-sizing: border-box;
+	background: #f9f9f9;
+}
+
+.searchBox>* {
+	vertical-align: middle;
+}
+
+.searchBox.type3 {
+	text-align: right;
+	background: #fff;
+	height: 40px;
+	line-height: 40px;
+}
+
+.searchBox select {
+	width: 160px;
+	height: 40px;
+	margin-right: 5px;
+}
+
+.searchBox.type3 select {
+	width: 80px;
+}
+
+.searchBox.type3 input[type="text"] {
+	width: 250px;
+}
+
+.searchBox input[type="text"] {
+	border: 1px solid #e74048;
+	border-right: none;
+	width: 400px;
+	height: 40px;
+	box-sizing: border-box;
+}
+
+.searchBox a.btnSearch {
+	display: inline-block;
+	width: 110px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	color: #fff;
+	background: #e74048;
+}
